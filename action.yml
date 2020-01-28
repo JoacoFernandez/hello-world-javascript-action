@@ -1,0 +1,13 @@
+name: "Hola a todos"
+description: 'Aprendiendo un poco'
+inputs:
+  who-to-greet:
+    description: 'A quien saludar'
+      required: true
+      default: 'Bob Marley'
+outputs:
+  time:
+    description: 'Cuando te saludamos'
+runs:
+  using: 'node12'
+  main: 'index.js'
