@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/JoacoFernandez/hello-world-javascript-action/issues"
   },
-  "homepage": "https://github.com/JoacoFernandez/hello-world-javascript-action#readme"
+  "homepage": "https://github.com/JoacoFernandez/hello-world-javascript-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.2",
+    "@actions/github": "^2.1.0"
+  }
 }
